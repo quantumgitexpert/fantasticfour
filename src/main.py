@@ -1,7 +1,7 @@
 '''
 Combining operations
 '''
-
+# function perform_operation selects which operation to run when 2 integers are provided
 def perform_operation(num1, num2, operation):
     if operation == "add":
         result = summation(num1, num2)
